@@ -28,13 +28,15 @@ public class VideoController {
     @PostMapping("/upload")
     public ResponseEntity uploadVideo(@RequestPart(value = "contents")VideoRequestDto videoRequestDto,
                                       @RequestPart(value = "img", required = false) MultipartFile multipartFile,
+                                      @RequestPart(value = "video", required = false) MultipartFile multipartVideo,
                                       @AuthenticationPrincipal UserDetailsImpl userDetails) throws IOException {
 
-        String img = "";
-        if(!multipartFile.isEmpty()) img = s3Uploader.upload(multipartFile, "static");
+        String imgUrl = "";
+        if(!multipartFile.isEmpty()) imgUrl = s3Uploader.upload(multipartFile, "image");
+        String videoUrl = s3Uploader.upload(multipartVideo, "video");
 
         User user = userDetails.getUser();
-        videoService.uploadVideo(videoRequestDto, img, user);
+        videoService.uploadVideo(videoRequestDto, imgUrl, user, videoUrl);
 
         return ResponseEntity.ok().body(null);
     }

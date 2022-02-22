@@ -45,10 +45,10 @@ public class VideoService {
     }
 
     @Transactional
-    public void uploadVideo(VideoRequestDto videoRequestDto, String img, User user) {
+    public void uploadVideo(VideoRequestDto videoRequestDto, String imgUrl, User user, String videoUrl) {
         Category category = categoryService.createCategory(videoRequestDto.getCategory());
 
-        Video video = new Video(videoRequestDto, img, user, category);
+        Video video = new Video(videoRequestDto, imgUrl, user, category, videoUrl);
 
         videoRepository.save(video);
     }
