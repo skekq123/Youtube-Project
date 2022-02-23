@@ -7,8 +7,11 @@
 # 1. 프로젝트 개요(Project).🎵
 
 ### 프로젝트 소개(Introduction).
-    
+
+## 📍 프로젝트 소개 동영상 스트리밍 서비스 제공 사이트 YOUTUBE를 클론 코딩하였습니다. 사이트에서 인식한 문제점을 코드로 개선하려고 노력하였습니다. 클라우드 서버를 이용하지 않고 동영상 파일을 저장하였습니다.
+
 ##### Reference - 이 프로젝트는 [YOUTUBE](https://www.youtube.com) 사이트를 참조하여 학습목적으로 만들었습니다 - 학습수준의 프로젝트로 만들었기 때문에 이 코드 및 데모영상을 활용하여 이득을 취하거나 무단 배포할 경우 법적으로 문제될 수 있습니다
+
 
 # 2. 개발환경( Development).❤️
 
@@ -46,7 +49,7 @@
 
 ## 개발도구(Tools).
 
-![기술](https://user-images.githubusercontent.com/97504973/154630912-63128979-7275-444f-af34-583de69a407c.png)
+![기술](https://img.shields.io/badge/github-#181717?style=for-the-badge&logo=github&logoColor=white)
 
 # 4. 데모영상 및 개발노션.♣️
 
