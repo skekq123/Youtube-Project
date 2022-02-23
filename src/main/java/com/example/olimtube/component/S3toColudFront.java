@@ -14,8 +14,7 @@ public class S3toColudFront {
     public String changeUrl(String url){
 
         int index = url.indexOf(".com/") + 4;
-        String res = domain + url.substring(index, url.length());
-
+        String res = "http://" + domain + url.substring(index, url.length());
         return res;
     }
 }
