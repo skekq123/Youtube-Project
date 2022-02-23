@@ -31,16 +31,6 @@
 
 # 3. 기술 스택(Tech Stack).🙅🏻‍♂️
 
-### [BACK_END]
-
-<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white"> <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white"> <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=for-the-badge&logo=Amazon AWS&logoColor=white"> <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white"> <img src="https://img.shields.io/badge/JWT-FECC00?style=for-the-badge&logo=JWT&logoColor=white"> <img src="https://img.shields.io/badge/Cloud Front-DC0D15?style=for-the-badge&logo=Cloud Front&logoColor=white"> <img src="https://img.shields.io/badge/EC2-AA344D?style=for-the-badge&logo=EC2&logoColor=white">
-
-### [FRONT-END]
-
-<img src="https://img.shields.io/badge/Javascript ES6+-F7DF1E?style=for-the-badge&logo=Javascrip&logoColor=white"><img src="https://img.shields.io/badge/React with-Hooks-7B16FF?style=for-the-badge&logo=React with-Hooks&logoColor=white"> <img src="https://img.shields.io/badge/React Router Dom-19A974?style=for-the-badge&logo=React Router Dom&logoColor=white"> <img src="https://img.shields.io/badge/redux-9A974?style=for-the-badge&logo=redux&logoColor=white"> <img src="https://img.shields.io/badge/redux thunk-57BCAD?style=for-the-badge&logo=redux-thunk&logoColor=white"> <img src="https://img.shields.io/badge/redux actions-7B16FF?style=for-the-badge&logo=redux-actions&logoColor=white"> <img src="https://img.shields.io/badge/react player-03234B?style=for-the-badge&logo=react-player&logoColor=white"> <img src="https://img.shields.io/badge/axios-F5C300?style=for-the-badge&logo=axios&logoColor=white"> <img src="https://img.shields.io/badge/Eimmer-7E4798?style=for-the-badge&logo=immer&logoColor=white"> <img src="https://img.shields.io/badge/image thumbnail-06C167?style=for-the-badge&logo=image-thumbnail&logoColor=white">
-
-## 핵심기능(Function).
-
 - 로그인, 회원가입
     - JWT를 이용하여 로그인과 회원가입을 구현.
     - 아이디는 3글자 이상 10글자 숫자,영문자 소/대문자로 구성.
@@ -62,9 +52,15 @@
 
 ## 개발도구(Tools).
 
-![기술](https://img.shields.io/badge/github-#181717?style=for-the-badge&logo=github&logoColor=white)
+### [BACK_END]
 
-<img src="https://img.shields.io/badge/github-#181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white"> <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white"> <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=for-the-badge&logo=Amazon AWS&logoColor=white"> <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white"> <img src="https://img.shields.io/badge/JWT-FECC00?style=for-the-badge&logo=JWT&logoColor=white"> <img src="https://img.shields.io/badge/Cloud Front-DC0D15?style=for-the-badge&logo=Cloud Front&logoColor=white"> <img src="https://img.shields.io/badge/EC2-AA344D?style=for-the-badge&logo=EC2&logoColor=white">
+
+### [FRONT-END]
+
+<img src="https://img.shields.io/badge/Javascript ES6+-F7DF1E?style=for-the-badge&logo=Javascrip&logoColor=white"><img src="https://img.shields.io/badge/React with-Hooks-7B16FF?style=for-the-badge&logo=React with-Hooks&logoColor=white"> <img src="https://img.shields.io/badge/React Router Dom-19A974?style=for-the-badge&logo=React Router Dom&logoColor=white"> <img src="https://img.shields.io/badge/redux-9A974?style=for-the-badge&logo=redux&logoColor=white"> <img src="https://img.shields.io/badge/redux thunk-57BCAD?style=for-the-badge&logo=redux-thunk&logoColor=white"> <img src="https://img.shields.io/badge/redux actions-7B16FF?style=for-the-badge&logo=redux-actions&logoColor=white"> <img src="https://img.shields.io/badge/react player-03234B?style=for-the-badge&logo=react-player&logoColor=white"> <img src="https://img.shields.io/badge/axios-F5C300?style=for-the-badge&logo=axios&logoColor=white"> <img src="https://img.shields.io/badge/Eimmer-7E4798?style=for-the-badge&logo=immer&logoColor=white"> <img src="https://img.shields.io/badge/image thumbnail-06C167?style=for-the-badge&logo=image-thumbnail&logoColor=white">
+
+## 핵심기능(Function).
 
 # 4. 데모영상 및 개발노션.♣️
 
