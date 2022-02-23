@@ -14,14 +14,13 @@
 
 ### 와이어 프레임(Wireframe)
 
+![팀원3](https://user-images.githubusercontent.com/93329407/155322150-a1cdfadc-e08c-4fb4-b24c-b484a4563fcc.png)
 ![팀원1](https://user-images.githubusercontent.com/93329407/155321881-be870521-06a3-447d-8771-391c62f0f864.png)
-![팀원3](https://user-images.githubusercontent.com/93329407/155321891-6075f386-09ef-44c5-8a0e-2e2e9e44666c.png)
 ![팀원2](https://user-images.githubusercontent.com/93329407/155321899-6df41873-195c-4346-9e16-4e40db130fde.png)
 
 ## API 설계(API Table)
 
-![111111](https://user-images.githubusercontent.com/97504973/154630156-8eda365e-5293-4706-9cd1-5729a5e0ab1b.png)
-![2222222](https://user-images.githubusercontent.com/97504973/154630174-66e4c4f6-379a-4cc6-b25e-497b42228c63.png)
+![111111](https://user-images.githubusercontent.com/93329407/155322371-ca154bd6-305b-4111-bf83-c6cc59e1a239.png)
 
 ## 테이블 도표(Entity Diagram)
 
