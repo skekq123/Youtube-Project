@@ -1,5 +1,6 @@
 package com.example.olimtube.service;
 
+import com.example.olimtube.component.S3toColudFront;
 import com.example.olimtube.model.Category;
 import com.example.olimtube.model.User;
 import com.example.olimtube.model.Video;
@@ -25,12 +26,13 @@ public class VideoService {
     private final VideoRepository videoRepository;
     private final CategoryService categoryService;
     private final UserRepository userRepository;
+    private final S3toColudFront s3toColudFront;
 
     @Transactional
     public List<VideoResponseDto> getVideosInfo() {
         List<VideoResponseDto> videoResponseDtos = new ArrayList<>();
 
-        List<Video> videos = videoRepository.findAll();
+        List<Video> videos = videoRepository.findAllByOrderByCreatedAtDesc();
 
         for(Video curVideo : videos) {
             Long curUserId = curVideo.getUser().getId();
@@ -47,6 +49,9 @@ public class VideoService {
     @Transactional
     public void uploadVideo(VideoRequestDto videoRequestDto, String imgUrl, User user, String videoUrl) {
         Category category = categoryService.createCategory(videoRequestDto.getCategory());
+
+        imgUrl = s3toColudFront.changeUrl(imgUrl);
+        videoUrl = s3toColudFront.changeUrl(videoUrl);
 
         Video video = new Video(videoRequestDto, imgUrl, user, category, videoUrl);
 

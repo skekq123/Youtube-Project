@@ -1,5 +1,6 @@
 package com.example.olimtube.service;
 
+import com.example.olimtube.component.S3toColudFront;
 import com.example.olimtube.model.*;
 import com.example.olimtube.repository.CategoryRepository;
 import com.example.olimtube.repository.UserCatecoryRepository;
@@ -29,6 +30,7 @@ public class UserService {
     private final JwtTokenProvider jwtTokenProvider;
     private final VideoRepository videoRepository;
     private final UserCatecoryRepository userCatecoryRepository;
+    private final S3toColudFront s3toColudFront;
     private static final String ADMIN_TOKEN = "AAABnv/xRVklrnYxKZ0aHgTBcXukeZygoC";
 
     @Transactional
@@ -63,6 +65,8 @@ public class UserService {
             }
             role = UserRoleEnum.ADMIN;
         }
+        profile = s3toColudFront.changeUrl(profile);
+
         User user = new User(username, password, profile, role);
         return userRepository.save(user);
     }
