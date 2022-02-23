@@ -14,6 +14,7 @@ public class VideoDetailResponeDto {
     private Long video_id;
     private String title;
     private String img;
+    private String videoUrl;
     private int category;
     private String category_img;
     //비디오파일
@@ -26,6 +27,7 @@ public class VideoDetailResponeDto {
         this.video_id = video.getId();
         this.title = video.getTitle();
         this.img = video.getImg();
+        this.videoUrl = video.getVideo();
         this.category = category.getCategoryNumber();
         this.category_img = category.getCategoryImg();
         this.views = video.getViews();

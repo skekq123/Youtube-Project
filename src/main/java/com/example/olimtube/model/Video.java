@@ -26,6 +26,9 @@ public class Video extends Timestamped{
     private String img;
 
     @Column(nullable = false)
+    private String video;
+
+    @Column(nullable = false)
     private int likes;
 
     @Column(nullable = false)
@@ -39,12 +42,13 @@ public class Video extends Timestamped{
     @JoinColumn(name="category_id")
     private Category category;
 
-    public Video(VideoRequestDto videoRequestDto, String img, User user, Category category) {
+    public Video(VideoRequestDto videoRequestDto, String imgUrl, User user, Category category, String videUrl) {
         this.title = videoRequestDto.getTitle();
         this.likes = 0;
         this.views = 0;
-        this.img = img;
+        this.img = imgUrl;
         this.user = user;
         this.category = category;
+        this.video = videUrl;
     }
 }
