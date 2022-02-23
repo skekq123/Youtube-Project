@@ -30,6 +30,7 @@
 ![도표](https://user-images.githubusercontent.com/45589210/155321852-1238f21d-d341-4d81-920a-f4d9d35f22a3.png)
 
 # 3. 기술 스택(Tech Stack).🙅🏻‍♂️
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white"> <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white"> <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=for-the-badge&logo=Amazon AWS&logoColor=white"> <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white"> <img src="https://img.shields.io/badge/JWT-FECC00?style=for-the-badge&logo=JWT&logoColor=white"> <img src="https://img.shields.io/badge/Cloud Front-DC0D15?style=for-the-badge&logo=Cloud Front&logoColor=white"> <img src="https://img.shields.io/badge/EC2-AA344D?style=for-the-badge&logo=EC2&logoColor=white">
 
 ## 핵심기능(Function).
 
@@ -41,10 +42,15 @@
     - 아이디를 이미 사용 중이면 회원가입이 불가능합니다.
 
 - 메인
+    
 
 - 비디오 상세페이지
+    - Amazon CloudFront를 이용한 빠른 비디오 재생
+    - 구독, 조아요 기능 추가
+    - 
 
 - 업로드 페이지
+    - 카테고리 설정 및 비디오 업로드, 비디오에서 썸네일 이미지 추출
 
 
 ## 개발도구(Tools).
