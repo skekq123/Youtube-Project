@@ -51,6 +51,8 @@
 
 ![기술](https://img.shields.io/badge/github-#181717?style=for-the-badge&logo=github&logoColor=white)
 
+<img src="https://img.shields.io/badge/github-#181717?style=for-the-badge&logo=github&logoColor=white">
+
 # 4. 데모영상 및 개발노션.♣️
 
 Demo link : 
