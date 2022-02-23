@@ -14,9 +14,9 @@
 
 ### 와이어 프레임(Wireframe)
 
-![팀원1](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/751f0dde-5e87-419e-a674-1b8ced3fde7e/Untitled.png)
-![팀원3](https://user-images.githubusercontent.com/97504973/154443527-d53685a6-e588-452a-aed4-e3be4a1edc5f.png)
-![팀원2](https://user-images.githubusercontent.com/97504973/154443537-cbcbd86c-9b57-4fea-beba-4c309beb7e4f.png)
+![팀원1](https://user-images.githubusercontent.com/93329407/155321881-be870521-06a3-447d-8771-391c62f0f864.png)
+![팀원3](https://user-images.githubusercontent.com/93329407/155321891-6075f386-09ef-44c5-8a0e-2e2e9e44666c.png)
+![팀원2](https://user-images.githubusercontent.com/93329407/155321899-6df41873-195c-4346-9e16-4e40db130fde.png)
 
 ## API 설계(API Table)
 
