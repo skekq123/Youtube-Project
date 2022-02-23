@@ -57,6 +57,3 @@ Notion link : https://www.notion.so/2-SA-2d2aeefff98c48338c308a5bbd067520
 # 5. 트러블 슛팅(Trouble Shooting).🚶🏻‍♂️
 
 
-
-# 6. 개인회고록(자유롭게 작성)💬.
-이규진 : https://rbwls44.tistory.com/68?category=1018562
