@@ -8,28 +8,13 @@
 
 ### 프로젝트 소개(Introduction).
     
-오늘 하루 어땠나요?
-
-힘든 날이었나요? 좋은 날이었나요? 자칫하면 의미없는 날로 지나갈 수 있는 
-매일의 일상을 기록하며, 오늘의 나를 되돌아 보고, 또 다른 유저들과 일상을 공유하며, 
-시시콜콜한 이야기, 감정을 나누어 볼수 있는 데일리 다이어리를 적어봅니다~!!
-
-### 프로젝트 기간(Schedule).
-
-2022년 2월 11일 ~ 2022년 2월 17일
-
-- 2월 11일 금: 프로젝트 주제선정, 와이드프레임 작성 및 API 설계
-- 2월 12일 토: DB선정, 로그인, 회원가입 구현
-- 2월 14일 월: 게시글 CURD 구현, 1차배포
-- 2월 15일 화: 댓글 CRUD 구현 및 오류 수정.
-- 2월 16일 수: 테스트 후 수정 및 2차 배포
-- 2월 17일 목: 프론트와 연결 및 최종 배포
+유튜브 클론코딩
 
 # 2. 개발환경( Development).❤️
 
 ### 와이어 프레임(Wireframe)
 
-![팀원1](https://user-images.githubusercontent.com/97504973/154443516-7859226c-570e-47f9-a498-7ac1edc1ccad.png)
+![팀원1](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/751f0dde-5e87-419e-a674-1b8ced3fde7e/Untitled.png)
 ![팀원3](https://user-images.githubusercontent.com/97504973/154443527-d53685a6-e588-452a-aed4-e3be4a1edc5f.png)
 ![팀원2](https://user-images.githubusercontent.com/97504973/154443537-cbcbd86c-9b57-4fea-beba-4c309beb7e4f.png)
 
