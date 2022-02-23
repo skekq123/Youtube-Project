@@ -24,18 +24,18 @@
 
 ## 테이블 도표(Entity Diagram)
 
-![도표](https://user-images.githubusercontent.com/97504973/154630803-493d0081-4b84-434c-bb47-769733e6cf6f.png)
+![도표](https://user-images.githubusercontent.com/45589210/155321852-1238f21d-d341-4d81-920a-f4d9d35f22a3.png)
 
 # 3. 기술 스택(Tech Stack).🙅🏻‍♂️
 
 ## 핵심기능(Function).
 
 - 로그인, 회원가입
-    - JWT를 이용하여 로그인과 회원가입을 구현하였습니다.
-    - 아이디는 3글자 이상 10글자 숫자,영문자 소/대문자로 구성해야합니다.
+    - JWT를 이용하여 로그인과 회원가입을 구현.
+    - 아이디는 3글자 이상 10글자 숫자,영문자 소/대문자로 구성.
     - 비밀번호는 4글자 이상으로 구성해야 합니다.
-    - 유저프로필 등록할 수 있습니다.
-    - 닉네임을 이미 사용 중이면 회원가입이 불가능합니다.
+    - 유저프로필 이미지 등록.
+    - 아이디를 이미 사용 중이면 회원가입이 불가능합니다.
 - 메인 페이지
     - 전체 게시글을 조회 합니다.
     - 마이페이지로 이동할 수 있습니다.
@@ -116,7 +116,7 @@ Notion link : www.notion.so/Dayily-Diary-e3d8f48497bf4eb28d533bdbbdd2704f
     }
 
 
-2. 완벽하지 API 설계**
+
 
 3. Entity에 ImageUrl List 추가하는 문제**
     - 바로 삽입할 수 가 없어서 ImageUrl table을 따로 만들고 Diary와 연관관계를 맺어 controller와 service에서 다시 request값을 리스트화 시켜 저장하는 방법을 사용하였다.
