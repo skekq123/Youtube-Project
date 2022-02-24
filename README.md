@@ -66,7 +66,7 @@
 
 # 4. 데모영상 및 개발노션.♣️
 
-Demo link : 
+Demo link : https://www.youtube.com/watch?v=8BMQL8NKKRM
 
 Notion link : https://www.notion.so/2-SA-2d2aeefff98c48338c308a5bbd067520
 
