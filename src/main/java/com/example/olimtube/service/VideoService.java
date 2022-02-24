@@ -59,15 +59,15 @@ public class VideoService {
     }
 
     @Transactional
-    public VideoDetailResponeDto detailVideo(Long video_id, User user) {
+    public VideoDetailResponeDto detailVideo(Long video_id) {
 
         Video video = videoRepository.getById(video_id);
         video.setViews(video.getViews() + 1);
 
         Category category = video.getCategory();
-        System.out.println(category.getCategoryNumber());
 
-        VideoUserResponseDto videoUserResponseDto = new VideoUserResponseDto(user);
+        VideoUserResponseDto videoUserResponseDto = new VideoUserResponseDto(video.getUser());
+
         List<SameCategoryVideoResponseDto> sameCategoryVideoResponseDtos = new ArrayList<>();
 
         List<Category> categories = categoryService.getCategories(category.getCategoryNumber());

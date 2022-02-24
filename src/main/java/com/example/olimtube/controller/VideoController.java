@@ -47,13 +47,13 @@ public class VideoController {
     }
 
     @GetMapping("/video/{video_id}")
-    public VideoDetailResponeDto detailVideo(@PathVariable Long video_id, @AuthenticationPrincipal UserDetailsImpl userDetails) {
-        User user = userDetails.getUser();
-        return videoService.detailVideo(video_id, user);
+    public VideoDetailResponeDto detailVideo(@PathVariable Long video_id) {
+        return videoService.detailVideo(video_id);
     }
 
     @DeleteMapping("/video/{video_id}")
     public ResponseEntity deleteVideo(@PathVariable Long video_id, @AuthenticationPrincipal UserDetailsImpl userDetails) {
+
         User user = userDetails.getUser();
         return videoService.deleteVideo(video_id, user);
     }
