@@ -13,7 +13,7 @@ public class VideoResponseDto {
     private String title;
     private String img;
     private String videoUrl;
-    private int categroyNumber;
+    private int categoryNumber;
     private String category_img;
     private int views;
     private int likes;
@@ -25,7 +25,7 @@ public class VideoResponseDto {
         this.title = video.getTitle();
         this.img = video.getImg();
         this.videoUrl = video.getVideo();
-        this.categroyNumber = video.getCategory().getCategoryNumber();
+        this.categoryNumber = video.getCategory().getCategoryNumber();
         this.category_img = video.getCategory().getCategoryImg();
         this.views = video.getViews();
         this.likes = video.getLikes();
