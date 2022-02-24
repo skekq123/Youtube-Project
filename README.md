@@ -4,6 +4,8 @@
 # 팀원 정보
 ![팀원](https://user-images.githubusercontent.com/93329407/155321170-b59d0f13-e9f5-4cd2-a103-c8e3f6a78a5d.png)
 
+Front git : https://github.com/gwangbaekun/olymtube
+
 # 1. 프로젝트 개요(Project).🎵
 
 ## 프로젝트 소개(Introduction).
