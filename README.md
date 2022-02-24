@@ -8,6 +8,8 @@
 
 ## 프로젝트 소개(Introduction).
 
+# 주소 : http://gwangbaekun.shop.s3-website.ap-northeast-2.amazonaws.com/
+
 ### 📍 프로젝트 소개 동영상 스트리밍 서비스 제공 사이트 YOUTUBE를 클론 코딩하였습니다. 사이트에서 인식한 문제점을 코드로 개선하려고 노력하였습니다.
 
 ##### Reference - 이 프로젝트는 [YOUTUBE](https://www.youtube.com) 사이트를 참조하여 학습목적으로 만들었습니다 - 학습수준의 프로젝트로 만들었기 때문에 이 코드 및 데모영상을 활용하여 이득을 취하거나 무단 배포할 경우 법적으로 문제될 수 있습니다
